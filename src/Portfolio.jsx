@@ -40,7 +40,7 @@ const Portfolio = () => {
       ]
     },
     {
-      company: "PT. Nutrifood Indonesia",
+      company: "PT. Nutrifood Indonesia", 
       period: "Feb 2023 - Aug 2024",
       role: "Production Support",
       details: [
@@ -162,8 +162,8 @@ const Portfolio = () => {
                   Teknik Informatika at Institut Teknologi Bisnis dan Swadharma. 
                 </p>
                 <p className="text-gray-300 mb-6">
-                  Specialized in server operations, managing 271 HPE servers and XP8 storage systems 
-                  with 24/7 monitoring responsibilities. Expert in troubleshooting, system administration, 
+                    Specialized in server operations, managing 271 HPE servers and XP8 storage systems 
+                    with 24/7 monitoring responsibilities. Expert in troubleshooting, system administration, 
                   and IoT development.
                 </p>
                 <div className="flex flex-wrap gap-4">
