@@ -1,6 +1,7 @@
+// filepath: c:\Users\aldia\OneDrive\Dokumen\project\personal-branding\postcss.config.js
 module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
-}
+  plugins: [
+    require('tailwindcss'),
+    require('autoprefixer'),
+  ],
+};
