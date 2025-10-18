@@ -3,15 +3,15 @@
 
 export const personalInfo = {
   name: "Aldi Alamsyah",
-  role: "Network Engineer",
-  tagline: "Passionate about Networks, Servers, and Scalable Infrastructure",
+  role: "IT Support | Field Engineer | Network Engineer",
+  tagline: "Memberikan kepercayaan diri mengenai hard skill dan soft skill secara fundamental",
   location: "Sindangsari, Bogor Timur 16146",
   birthDate: "Bogor, 5 Juli 2003",
   email: "aldialmsyahh@gmail.com",
   phone: "085117344404",
   linkedin: "https://www.linkedin.com/in/aldi-alamsyah-a0b7b322b",
   github: "https://aldialmsyahh9.github.io/portofolio/",
-  profileSummary: "Lulusan SMK Wikrama Bogor jurusan Teknik Komputer dan Jaringan. Berpengalaman di bidang IT Support, Instalasi, dan Troubleshooting. Terbiasa bekerja di lingkungan server dan infrastruktur, memiliki kemampuan problem solving, serta terus belajar teknologi baru seperti AI."
+  profileSummary: "Lulusan SMK Wikrama Bogor jurusan Teknik Komputer dan Jaringan, berpengalaman di bidang IT Support, instalasi, dan troubleshooting. Terbiasa bekerja di lingkungan server dan infrastruktur jaringan, memiliki kemampuan problem solving, serta cepat beradaptasi dan terus mempelajari teknologi baru termasuk AI. Memiliki aspirasi karier di bidang Network Engineer, IT Support, dan Field Engineer, serta berkomitmen memberikan hasil terbaik dalam setiap pekerjaan yang dilakukan."
 };
 
 export const education = [
@@ -34,10 +34,23 @@ export const education = [
 export const experience = [
   {
     id: 1,
+    position: "Field Engineer",
+    company: "PT. Kaha Duta Sarana",
+    period: "Agustus – November 2024",
+    current: true,
+    responsibilities: [
+      "Project MAP Starbucks Jabodetabek",
+      "Cloning Images (Acronis)", 
+      "Ganti SSD dan RAM",
+      "Setting Peripherals POS"
+    ]
+  },
+  {
+    id: 2,
     position: "Teknisi Server & Storage",
     company: "PT. Bringin Inti Teknologi",
     period: "Februari – Juli 2025",
-    current: true,
+    current: false,
     responsibilities: [
       "Monitoring HPE ProLiant Server via Dashboard ILO Amplifier & ILO",
       "Monitoring XP8 Storage via Dashboard ISM, PA & RWC",
@@ -48,21 +61,22 @@ export const experience = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     position: "Field Engineer",
     company: "PT. Kaha Duta Sarana",
     period: "Agustus – November 2024",
     current: false,
     responsibilities: [
+      "Project RTA Guardian",
       "Setup and maintenance POS Store Guardian (Lenovo, BM3, VynaPOS)",
       "Configuration of cashier peripherals (Scanner, Printer, Line Display)",
-      "Backup Linux, Cloning Images (Acronis)",
+      "Backup data store, Cloning Images (Acronis)",
       "Replace & dismantle old POS to new system",
       "Setup label printer (Intermec & Honeywell)"
     ]
   },
   {
-    id: 3,
+    id: 4,
     position: "IT Support",
     company: "PT. Mizan Media Utama",
     period: "Agustus – November 2022",
